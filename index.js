@@ -67,3 +67,10 @@ app.post("/split-payments/compute", (req, res) => {
   // Ending the response
   res.end()
 });
+
+
+app.get("/", (req, res)=>{
+  res.send("flutter lannister pay");
+  // Ending the response
+  res.end();
+})
