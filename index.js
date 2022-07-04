@@ -6,10 +6,10 @@ const app = express();
 
 app.use(express.json())
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
-  console.log("We are live on " + port);
+  console.log(`Server started on port ${port}`);
 });
 
 app.post("/split-payments/compute", (req, res) => {
@@ -64,4 +64,6 @@ app.post("/split-payments/compute", (req, res) => {
     SplitBreakdown: SplitBreakdown,
   };
   res.send(response)
+  // Ending the response
+  res.end()
 });
