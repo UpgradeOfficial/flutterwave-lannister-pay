@@ -1,0 +1,27 @@
+{
+  "name": "flutterwave-lannister-pay",
+  "version": "1.0.0",
+  "description": "A simple transaction payment splitting service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UpgradeOfficial/flutterwave-lannister-pay.git"
+  },
+  "keywords": [
+    "payment",
+    "flutterwave"
+  ],
+  "author": "Odeyemi Increase Ayobami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UpgradeOfficial/flutterwave-lannister-pay/issues"
+  },
+  "homepage": "https://github.com/UpgradeOfficial/flutterwave-lannister-pay#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
